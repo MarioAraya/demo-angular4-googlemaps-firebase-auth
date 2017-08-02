@@ -1,4 +1,22 @@
-# MyMapsProject
+# Instrucciones
+
+# Usado
+
+    - Implementación de Google Maps Javascript API con Angular 4 "angular-google-maps" https://github.com/angular-ui/angular-google-maps
+    - Proyecto creado con Angular CLI
+
+
+# Thoughs
+    
+    Se revisó ejemplo plunker: http://embed.plnkr.co/YX7W20/ pero es de version anterior incompatible con el código de la versión actual, 
+    por lo que tomò más horas de las presupuestadas entender la nueva sintaxis e implementación, pero también fue debido a la inexperiencia con el Framework Angular4
+
+    NEXT: - Autenticación con GoogleAccounts
+        : - Guardar data de usuario (posicion de los markers) en redis/firebase.
+        : - 
+
+
+# Angular CLI Actugenerated doc
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.3.
 
