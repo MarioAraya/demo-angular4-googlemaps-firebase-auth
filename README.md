@@ -1,19 +1,22 @@
 # Instrucciones
+    (the old & known)
+    - npm install
+    - npm start
 
-# Usado
+# Que se usó
 
+    - Proyecto creado con Angular CLI (Framework Angular4.3.2 + webpack2 build)
     - Implementación de Google Maps Javascript API con Angular 4 "angular-google-maps" https://github.com/angular-ui/angular-google-maps
-    - Proyecto creado con Angular CLI
-
-
-# Thoughs
-    
-    Se revisó ejemplo plunker: http://embed.plnkr.co/YX7W20/ pero es de version anterior incompatible con el código de la versión actual, 
-    por lo que tomò más horas de las presupuestadas entender la nueva sintaxis e implementación, pero también fue debido a la inexperiencia con el Framework Angular4
 
     NEXT: - Autenticación con GoogleAccounts
         : - Guardar data de usuario (posicion de los markers) en redis/firebase.
-        : - 
+        : - Alguna implementacion de MaterialDesign en la UI y/o mejorar UX
+
+
+# Thoughs, etc
+    
+    Se revisó ejemplo plunker: http://embed.plnkr.co/YX7W20/ pero es de version anterior incompatible con el código de la versión actual, 
+    por lo que tomò más horas de las presupuestadas entender la nueva sintaxis e implementación, pero también fue debido a la inexperiencia con el Framework Angular4
 
 
 # Angular CLI Actugenerated doc
