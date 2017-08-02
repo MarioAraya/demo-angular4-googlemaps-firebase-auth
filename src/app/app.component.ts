@@ -44,7 +44,8 @@ export class AppComponent {
   mapClicked($event: MouseEvent) {
     this.markers.push({
       lat: $event.coords.lat,
-      lng: $event.coords.lng
+      lng: $event.coords.lng,
+      draggable: true
     });
   }
 
