@@ -2,13 +2,8 @@ agm-map {
   height: 600px;
 }
 
-.iw-labels label {
-  width: 55px;
-  display: inline-block;
-}
-
-#iw-lat, #iw-lng {
-  background: #eee;
+span.input-group-addon {
+    width: 72px;
 }
 
 .p {
