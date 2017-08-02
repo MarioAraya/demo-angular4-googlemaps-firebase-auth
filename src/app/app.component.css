@@ -1,0 +1,16 @@
+agm-map {
+  height: 300px;
+}
+
+.iw-labels label {
+  width: 55px;
+  display: inline-block;
+}
+
+#iw-lat, #iw-lng {
+  background: #eee;
+}
+
+.p {
+  font-weight: bold;
+}
