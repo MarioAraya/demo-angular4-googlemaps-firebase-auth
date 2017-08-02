@@ -1,5 +1,6 @@
 <h1>{{ title }}</h1>
-
+<h3>- Click en un marcador para ver su data.</h3>
+<h3>- Puede arrastrar los marcadores o agregar nuevos.</h3>
 <!-- this creates a google map on the page with the given lat/lng from -->
 <!-- the component as the initial center of the map: -->
 <agm-map 
@@ -18,7 +19,7 @@
     >
     <agm-info-window>
       <strong>InfoWindow content</strong>
-      <p class="p">Este es el infowindow del marker: {{m.label}}</p>
+      <p *ngIf="m.label" class="p">Este es el infowindow del marker: {{m.label}}</p>
       <div class="iw-labels">
         <label for="iw-lat">Latitud</label>
         <input id="iw-lat" type="text" value="{{m.lat}}" readonly />
