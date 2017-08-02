@@ -7,7 +7,7 @@ import { AgmMarker, MarkerManager, MouseEvent } from "@agm/core";
   styleUrls: ['app.component.css'],
 })
 export class AppComponent {
-  title: string = 'Angular4 + angular-google-maps';
+  title: string = 'Angular4-Maps';
   zoomDefault: number = 14;
   markers: marker[] = [
 	  {
