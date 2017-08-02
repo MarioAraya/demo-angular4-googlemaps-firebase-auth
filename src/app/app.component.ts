@@ -7,7 +7,7 @@ import { AgmMarker, MarkerManager, MouseEvent } from "@agm/core";
   styleUrls: ['app.component.css'],
 })
 export class AppComponent {
-  title: string = 'My first AGM project';
+  title: string = 'Angular4 + angular-google-maps';
   zoomDefault: number = 14;
   markers: marker[] = [
 	  {
@@ -29,6 +29,8 @@ export class AppComponent {
       draggable: true        
 	  }
   ];
+
+  constructor() {}
 
   onClickMarker(label: string, index: number) {
     console.log(`clicked the marker: ${label || index}`)
@@ -54,9 +56,6 @@ export class AppComponent {
       }
     })
   }
-
-  constructor() {}
-
 }
 
 interface marker {
